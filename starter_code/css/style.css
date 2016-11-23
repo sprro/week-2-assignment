@@ -1,0 +1,269 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+
+
+.clear {
+  clear: both;
+}
+
+
+
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+
+
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*#container {
+  width: 100%;
+  margin: auto;
+  height: 750px;
+}*/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.landing {
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px; 
+  background-size: cover; 
+  height: 750px;
+}
+
+.top {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 800; 
+  color: white; 
+  padding-left: 50px; 
+  padding-top: 30px; 
+}
+
+
+.title {
+  text-align: center;
+}
+
+
+.title p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  font-size: 65px; 
+  text-align: center; 
+  color: white;
+  padding-top: 180px;
+  letter-spacing: 1px; 
+}
+
+
+.title button {
+  width: 200px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; 
+  font-size: 24px;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  border: none;
+  margin-top: 35px;
+}
+
+
+.title button:hover {
+  background-color: #033048;
+  color: #fff; 
+}
+
+
+.benefits {
+  background-color: #f0efef;
+  width: 100%; 
+  height: 500px;
+  border-top: 1px solid #033048;
+  border-bottom: 1px solid #033048;;
+}
+
+
+.benefits h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  color: #033048;
+  font-size: 55px;
+  text-align: center; 
+  padding-top: 40px;
+}
+
+
+.benefits p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; 
+  color: #033048;
+  font-size: 26px;
+  text-align: center;
+  padding: 0 15px 0 5px; 
+}
+
+
+.perks {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.perks ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+
+.perks li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #033048;
+  text-align: center;
+  padding: 30px 15px 30px 15px;
+  float: left;
+  display: block;
+  margin: 5px;
+  background-color: #e5e5e5;
+  width: 275px;
+  height: 150px; 
+  border-radius: 15px;
+  border: 1px solid #033048;
+}
+
+
+.perks li:hover {
+  background-color: #033048;
+  color: #e5e5e5;
+}
+}
+.clear {
+  clear: both; 
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  height: 400px; 
+}
+
+#quote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 300i;
+  font-style: italic;
+  color: #f0efef;
+  text-align: center;
+  padding: 60px 150px 0 150px; 
+}
+
+#source {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #f0efef;
+  text-align: center;
+  padding: 10px;
+}
+
+.signup {
+  width: 100%;
+  height: 100px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+.signup button {
+  width: 300px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #f0efef;
+  font-weight: 800; 
+  font-size: 24px;
+  background-color: #033048;
+  border-radius: 5px;
+  border: none;
+  margin-top: 25px;
+}
+
+.signup button:hover {
+  background-color: #f0efef;
+  color: #033048;
+  border: 1px solid #033048;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #121212;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 800; 
+  color: #f9e42e; 
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px 75px;
+  margin-top: 25px;
+}
+
+footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300; 
+  color: #606161;
+  text-align: center;
+}
